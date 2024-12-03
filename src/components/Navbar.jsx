@@ -56,7 +56,7 @@ const navbar = () => {
                     <a className='flex justify-between items-center w-full tex-gray-300' href="https://github.com/Arinola23">Github <FaGithub size={30}/> </a>
                 </li>
                 <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a className='flex justify-between items-center w-full tex-gray-300' href="/">Resume  <BsFillPersonLinesFill size={30}/> </a>
+                    <a className='flex justify-between items-center w-full tex-gray-300' href="https://drive.google.com/file/d/1m1Nt1jW38zWROPpaYfyOEgC0jUt4RkhJ/view?usp=sharing">Resume  <BsFillPersonLinesFill size={30}/> </a>
                 </li>
                 {/* <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a className='flex justify-between items-center w-full tex-gray-300' href="https://drive.google.com/file/d/1yt9wAhrDUxKPJLfCyypdVEbWXA7tRqlR/view?usp=sharing">Resume  <BsFillPersonLinesFill size={30}/> </a>
