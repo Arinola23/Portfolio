@@ -13,12 +13,12 @@ import Sql from "../assets/mysqlr.png"
 const Skills = () => {
   return (
    <section id='skills'>
-     <div className='bg-[#0a192f] text-gray-300 w-full h-screen' name="skills">
+     <div className='bg-[#0a192f] text-gray-300 w-full  h-screen md:h-[600px]' name="skills">
         {/* container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full  sm:pt-0 md:pt-0 '>
            <div>
-              <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-center '>Skills</p>
-              <p className='py-4'>//These are some of the technologies I have worked with.</p>
+              <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-center sm:ml-6 '>Skills</p>
+              <p className=' py-6 sm:pt-6  sm:pb-[80px]' >These are some of the technologies I have worked with.</p>
            </div>
 
            <div className='w-full grid grid-cols-2 sm:grid-cols-3 text-center py-4 '>

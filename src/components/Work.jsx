@@ -6,11 +6,12 @@ import User from "../assets/user-manager.png"
 const work = () => {
   return (
   <section id='work'>
-      <div name="work" className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    {/* fix the height for more image */}
+      <div name="work" className='w-full md:h-[500px]  text-gray-300 bg-[#0a192f]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600  '>Works</p>
-                <p className='py-6'>//Check out some of my recent works</p>
+            <div className='pb-3 pt-[0px] md:pt-[11] sm:pt-[11]'>
+                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 sm:ml-6  '>Works</p>
+                <p className='py-6 sm:ml-6'>Check out some of my recent works</p>
             </div>
                     {/* grid container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-4'>
